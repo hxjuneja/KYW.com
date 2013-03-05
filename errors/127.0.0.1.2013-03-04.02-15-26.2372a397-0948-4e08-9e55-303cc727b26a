@@ -1,0 +1,410 @@
+(dp1
+S'output'
+p2
+S'<type \'exceptions.RuntimeError\'> Failure to connect, tried 5 times:\nTraceback (most recent call last):\n  File "/opt/web2py/gluon/dal.py", line 7269, in __init__\n    self._adapter = ADAPTERS[self._dbname](**kwargs)\n  File "/opt/web2py/gluon/dal.py", line 2479, in __init__\n    if do_connect: self.reconnect()\n  File "/opt/web2py/gluon/dal.py", line 596, in reconnect\n    self.connection = f()\n  File "/opt/web2py/gluon/dal.py", line 2477, in connector\n    return self.driver.connect(**driver_args)\n  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect\n    return Connection(*args, **kwargs)\n  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__\n    super(Connection, self).__init__(*args, **kwargs2)\nOperationalError: (1049, "Unknown database \'factbook\'")\n'
+p3
+sS'layer'
+p4
+S'/opt/web2py/applications/know_your_world/models/db.py'
+p5
+sS'code'
+p6
+S"db = DAL('mysql://root:wtfcall911@localhost/factbook')\ndb.define_table('sd',\n                Field('country_id',unique=True),\n                Field('country'),\n                Field('data'))\n\ndb.sd.data.requires = IS_LENGTH(99999999999999)\n"
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__hash__'
+p12
+S"<method-wrapper '__hash__' of exceptions.RuntimeError object>"
+p13
+sS'__setattr__'
+p14
+S"<method-wrapper '__setattr__' of exceptions.RuntimeError object>"
+p15
+sS'__reduce_ex__'
+p16
+S'<built-in method __reduce_ex__ of exceptions.RuntimeError object>'
+p17
+sS'__getslice__'
+p18
+S"<method-wrapper '__getslice__' of exceptions.RuntimeError object>"
+p19
+sS'__getitem__'
+p20
+S"<method-wrapper '__getitem__' of exceptions.RuntimeError object>"
+p21
+sS'__setstate__'
+p22
+S'<built-in method __setstate__ of exceptions.RuntimeError object>'
+p23
+sS'args'
+p24
+S'(\'Failure to connect, tried 5 times:\\nTraceback (mo...onalError: (1049, "Unknown database \\\'factbook\\\'")\\n\',)'
+p25
+sS'__reduce__'
+p26
+S'<built-in method __reduce__ of exceptions.RuntimeError object>'
+p27
+sS'__str__'
+p28
+S"<method-wrapper '__str__' of exceptions.RuntimeError object>"
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.RuntimeError object>'
+p31
+sS'__getattribute__'
+p32
+S"<method-wrapper '__getattribute__' of exceptions.RuntimeError object>"
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.RuntimeError'>"
+p35
+sS'__unicode__'
+p36
+S'<built-in method __unicode__ of exceptions.RuntimeError object>'
+p37
+sS'__delattr__'
+p38
+S"<method-wrapper '__delattr__' of exceptions.RuntimeError object>"
+p39
+sS'__subclasshook__'
+p40
+S'<built-in method __subclasshook__ of type object>'
+p41
+sS'__repr__'
+p42
+S"<method-wrapper '__repr__' of exceptions.RuntimeError object>"
+p43
+sS'__dict__'
+p44
+S'{}'
+p45
+sS'__sizeof__'
+p46
+S'<built-in method __sizeof__ of exceptions.RuntimeError object>'
+p47
+sS'__doc__'
+p48
+S"'Unspecified run-time error.'"
+p49
+sS'__init__'
+p50
+S"<method-wrapper '__init__' of exceptions.RuntimeError object>"
+p51
+sS'__new__'
+p52
+S'<built-in method __new__ of type object>'
+p53
+ssS'evalue'
+p54
+S'Failure to connect, tried 5 times:\nTraceback (most recent call last):\n  File "/opt/web2py/gluon/dal.py", line 7269, in __init__\n    self._adapter = ADAPTERS[self._dbname](**kwargs)\n  File "/opt/web2py/gluon/dal.py", line 2479, in __init__\n    if do_connect: self.reconnect()\n  File "/opt/web2py/gluon/dal.py", line 596, in reconnect\n    self.connection = f()\n  File "/opt/web2py/gluon/dal.py", line 2477, in connector\n    return self.driver.connect(**driver_args)\n  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect\n    return Connection(*args, **kwargs)\n  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__\n    super(Connection, self).__init__(*args, **kwargs2)\nOperationalError: (1049, "Unknown database \'factbook\'")\n'
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's\x08]\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">ajax</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">application</td><td valign="top">:</td><td><div>know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">args</td><td valign="top">:</td><td><div><table><tr><td><div>db</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7fa4cc0bea08&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cid</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">client</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">controller</td><td valign="top">:</td><td><div>appadmin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">registered</td><td valign="top">:</td><td><div>yes<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_admin</td><td valign="top">:</td><td><div>127.0.0.1-5eeed389-4c57-4ff3-b0c6-d4e8eb84d356<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_eden</td><td valign="top">:</td><td><div>127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_know_your_world</td><td valign="top">:</td><td><div>127.0.0.1-3793faba-d79b-4484-afe8-0435e85eff2b<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">env</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/opt/web2py/applications/admin/&#x27;, &#x27;/opt/web2py/applications/know_your_world/&#x27;, &#x27;/opt/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x1f4bc20: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;hardik-HP-Pavilion-dv6-Notebook-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/opt/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_charset</td><td valign="top">:</td><td><div>ISO-8859-1,utf-8;q=0.7,*;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_encoding</td><td valign="top">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_language</td><td valign="top">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_cache_control</td><td valign="top">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_connection</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_cookie</td><td valign="top">:</td><td><div>registered=yes; session_id_eden=127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d; session_id_admin=127.0.0.1-5eeed389-4c57-4ff3-b0c6-d4e8eb84d356; session_id_know_your_world=127.0.0.1-3793faba-d79b-4484-afe8-0435e85eff2b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_host</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_referer</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/know_your_world/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_user_agent</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path_info</td><td valign="top">:</td><td><div>/know_your_world/appadmin/select/db</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">query_string</td><td valign="top">:</td><td><div>query=db.sd.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_addr</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_port</td><td valign="top">:</td><td><div>52793</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_method</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_uri</td><td valign="top">:</td><td><div>/know_your_world/appadmin/select/db?query=db.sd.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">script_name</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_name</td><td valign="top">:</td><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_port</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_protocol</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_software</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_path</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div><table><tr><td><div>2</div></td></tr><tr><td><div>4</div></td></tr><tr><td><div>1</div></td></tr><tr><td><div>alpha.2</div></td></tr><tr><td><div>datetime.datetime(2013, 2, 18, 13, 53, 31)</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7fa50fa4a270&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1ed4870&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_input</td><td valign="top">:</td><td><div>&lt;socket._fileobject object at 0x7fa4d022aa50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_version</td><td valign="top">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">extension</td><td valign="top">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">folder</td><td valign="top">:</td><td><div>/opt/web2py/applications/know_your_world/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">function</td><td valign="top">:</td><td><div>select</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">get_vars</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">query</td><td valign="top">:</td><td><div>db.sd.id&gt;0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">global_settings</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/opt/web2py/applications/admin/&#x27;, &#x27;/opt/web2py/applications/know_your_world/&#x27;, &#x27;/opt/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x1f4bc20: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;hardik-HP-Pavilion-dv6-Notebook-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/opt/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div><table><tr><td><div>2</div></td></tr><tr><td><div>4</div></td></tr><tr><td><div>1</div></td></tr><tr><td><div>alpha.2</div></td></tr><tr><td><div>datetime.datetime(2013, 2, 18, 13, 53, 31)</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_https</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_local</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_restful</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">now</td><td valign="top">:</td><td><div>datetime.datetime(2013, 3, 4, 2, 15, 26, 579204)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">post_vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_args</td><td valign="top">:</td><td><div>db</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_extension</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">url</td><td valign="top">:</td><td><div>/know_your_world/appadmin/select/db</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">utcnow</td><td valign="top">:</td><td><div>datetime.datetime(2013, 3, 3, 20, 45, 26, 579226)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">uuid</td><td valign="top">:</td><td><div>know_your_world/127.0.0.1.2013-03-04.02-15-26.2372a397-0948-4e08-9e55-303cc727b26a</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">vars</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">query</td><td valign="top">:</td><td><div>db.sd.id&gt;0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">environ</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_CHARSET</td><td valign="top">:</td><td><div>ISO-8859-1,utf-8;q=0.7,*;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_ENCODING</td><td valign="top">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_LANGUAGE</td><td valign="top">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_CACHE_CONTROL</td><td valign="top">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_CONNECTION</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_COOKIE</td><td valign="top">:</td><td><div>registered=yes; session_id_eden=127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d; session_id_admin=127.0.0.1-5eeed389-4c57-4ff3-b0c6-d4e8eb84d356; session_id_know_your_world=127.0.0.1-3793faba-d79b-4484-afe8-0435e85eff2b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_HOST</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_REFERER</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/know_your_world/appadmin/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_USER_AGENT</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">PATH_INFO</td><td valign="top">:</td><td><div>/know_your_world/appadmin/select/db</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">QUERY_STRING</td><td valign="top">:</td><td><div>query=db.sd.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_ADDR</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_PORT</td><td valign="top">:</td><td><div>52793</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_METHOD</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_URI</td><td valign="top">:</td><td><div>/know_your_world/appadmin/select/db?query=db.sd.id%3E0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SCRIPT_NAME</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_NAME</td><td valign="top">:</td><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PORT</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PROTOCOL</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_SOFTWARE</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7fa50fa4a270&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1ed4870&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.input</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7fa4cc0bea08&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.version</td><td valign="top">:</td><td><div>1</div></td></tr></table></div></td></tr></table></div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/opt/web2py/gluon/restricted.py'
+p63
+sS'dump'
+p64
+(dp65
+S'environment'
+p66
+S"{'A': <class 'gluon.html.A'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, 'CLEANUP': <class 'gluon.validators.CLEANUP'>, 'CODE': <class 'gluon.html.CODE'>, ...}"
+p67
+sS'ccode'
+p68
+S'<code object <module> at 0x7fa4dc344830, file "/...plications/know_your_world/models/db.py", line 1>'
+p69
+ssS'lnum'
+p70
+I212
+sS'lines'
+p71
+(dp72
+I207
+S'    try:'
+p73
+sI208
+S'        if isinstance(code, types.CodeType):'
+p74
+sI209
+S'            ccode = code'
+p75
+sI210
+S'        else:'
+p76
+sI211
+S'            ccode = compile2(code, layer)'
+p77
+sI212
+S'        exec ccode in environment'
+p78
+sI213
+S'    except HTTP:'
+p79
+sI214
+S'        raise'
+p80
+sI215
+S'    except RestrictedError:'
+p81
+sI216
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p82
+ssS'call'
+p83
+S'(code="db = DAL(\'mysql://root:wtfcall911@localhost/fact...\\ndb.sd.data.requires = IS_LENGTH(99999999999999)\\n", environment={\'A\': <class \'gluon.html.A\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, \'CAT\': <class \'gluon.html.CAT\'>, \'CENTER\': <class \'gluon.html.CENTER\'>, \'CLEANUP\': <class \'gluon.validators.CLEANUP\'>, \'CODE\': <class \'gluon.html.CODE\'>, ...}, layer=\'/opt/web2py/applications/know_your_world/models/db.py\')'
+p84
+sS'func'
+p85
+S'restricted'
+p86
+sa(dp87
+g62
+S'/opt/web2py/applications/know_your_world/models/db.py'
+p88
+sg64
+(dp89
+S'DAL'
+p90
+S"<class 'gluon.dal.DAL'>"
+p91
+sS'db'
+p92
+S'undefined'
+p93
+ssg70
+I1
+sg71
+(dp94
+I1
+S"db = DAL('mysql://root:wtfcall911@localhost/factbook')"
+p95
+sI2
+S"db.define_table('sd',"
+p96
+sI3
+S"                Field('country_id',unique=True),"
+p97
+sI4
+S"                Field('country'),"
+p98
+sI5
+S"                Field('data'))"
+p99
+sI6
+S''
+sI7
+S'db.sd.data.requires = IS_LENGTH(99999999999999)'
+p100
+ssg83
+S'()'
+p101
+sg85
+S'<module>'
+p102
+sa(dp103
+g62
+S'/opt/web2py/gluon/dal.py'
+p104
+sg64
+(dp105
+S'tb'
+p106
+S'\'Traceback (most recent call last):\\n  File "/opt/...onalError: (1049, "Unknown database \\\'factbook\\\'")\\n\''
+p107
+sS'attempts'
+p108
+S'5'
+sS'builtinRuntimeError'
+p109
+S"<type 'exceptions.RuntimeError'>"
+p110
+ssg70
+I7289
+sg71
+(dp111
+I7284
+S'                if connected:'
+p112
+sI7285
+S'                    break'
+p113
+sI7286
+S'                else:'
+p114
+sI7287
+S'                    time.sleep(1)'
+p115
+sI7288
+S'            if not connected:'
+p116
+sI7289
+S'                raise RuntimeError("Failure to connect, tried %d times:\\n%s" % (attempts, tb))'
+p117
+sI7290
+S'        else:'
+p118
+sI7291
+S'            self._adapter = BaseAdapter(db=self,pool_size=0,'
+p119
+sI7292
+S"                                        uri='None',folder=folder,"
+p120
+sI7293
+S'                                        db_codec=db_codec, after_connection=after_connection)'
+p121
+ssg83
+S'(self=<DAL uri="mysql://root:******@localhost/factbook">, uri=\'mysql://root:wtfcall911@localhost/factbook\', pool_size=0, folder=None, db_codec=\'UTF-8\', check_reserved=None, migrate=True, fake_migrate=False, migrate_enabled=True, fake_migrate_all=False, decode_credentials=False, driver_args=None, adapter_args=None, attempts=5, auto_import=False, bigint_id=False, debug=False, lazy_tables=False, db_uid=None, do_connect=True, after_connection=None)'
+p122
+sg85
+g50
+sasS'pyver'
+p123
+S'Python 2.7.3: /usr/bin/python (prefix: /usr)'
+p124
+sS'session'
+p125
+g57
+(S's\x13\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">last_orderby</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">last_query</td><td valign="top">:</td><td><div>db.sd.id&gt;0</div></td></tr></table></div>'
+tRp126
+sS'etype'
+p127
+S"<type 'exceptions.RuntimeError'>"
+p128
+sS'date'
+p129
+S'Mon Mar  4 02:15:35 2013'
+p130
+sS'response'
+p131
+g57
+(S's\xd8\x11\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7fa4d8474f48&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">session_id_know_your_world</td><td valign="top">:</td><td><div>127.0.0.1-3793faba-d79b-4484-afe8-0435e85eff2b<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">delimiters</td><td valign="top">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">files</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">flash</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">generic_patterns</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">headers</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">X-Powered-By</td><td valign="top">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">menu</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">meta</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">models_to_run</td><td valign="top">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/select/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">postprocessing</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_cookie_expires</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_data_name</td><td valign="top">:</td><td><div>session_data_know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_file</td><td valign="top">:</td><td><div>&lt;open file &#x27;/opt/web2py/applications/know_your_world/sessions/127.0.0.1-3793faba-d79b-4484-afe8-0435e85eff2b&#x27;, mode &#x27;rb+&#x27; at 0x7fa4dc46e930&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_filename</td><td valign="top">:</td><td><div>/opt/web2py/applications/know_your_world/sessions/127.0.0.1-3793faba-d79b-4484-afe8-0435e85eff2b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id</td><td valign="top">:</td><td><div>127.0.0.1-3793faba-d79b-4484-afe8-0435e85eff2b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_name</td><td valign="top">:</td><td><div>session_id_know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_locked</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_new</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_storage_type</td><td valign="top">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">status</td><td valign="top">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">view</td><td valign="top">:</td><td><div>appadmin/select.html</div></td></tr></table></div>'
+tRp132
+sS'locals'
+p133
+(dp134
+S'migrate'
+p135
+S'True'
+p136
+sS'do_connect'
+p137
+g136
+sS'decode_credentials'
+p138
+S'False'
+p139
+sS'attempts'
+p140
+S'5'
+sS'driver_args'
+p141
+S'None'
+p142
+sS'self'
+p143
+S'<DAL uri="mysql://root:******@localhost/factbook">'
+p144
+sS'auto_import'
+p145
+g139
+sS'migrate_enabled'
+p146
+g136
+sS'check_reserved'
+p147
+S'None'
+p148
+sS'bigint_id'
+p149
+g139
+sS'kwargs'
+p150
+S'{\'adapter_args\': {}, \'after_connection\': None, \'credential_decoder\': <function <lambda>>, \'db\': <DAL uri="mysql://root:******@localhost/factbook">, \'db_codec\': \'UTF-8\', \'do_connect\': True, \'driver_args\': {\'charset\': \'utf8\', \'db\': \'factbook\', \'host\': \'localhost\', \'passwd\': \'wtfcall911\', \'port\': 3306, \'user\': \'root\'}, \'folder\': None, \'pool_size\': 0, \'uri\': \'mysql://root:wtfcall911@localhost/factbook\'}'
+p151
+sS'folder'
+p152
+S'None'
+p153
+sS'tb'
+p154
+S'\'Traceback (most recent call last):\\n  File "/opt/...onalError: (1049, "Unknown database \\\'factbook\\\'")\\n\''
+p155
+sS'uris'
+p156
+S"['mysql://root:wtfcall911@localhost/factbook']"
+p157
+sS'lazy_tables'
+p158
+g139
+sS'db_codec'
+p159
+S"'UTF-8'"
+p160
+sS'adapter_args'
+p161
+S'None'
+p162
+sS'fake_migrate'
+p163
+g139
+sS'connected'
+p164
+g139
+sS'credential_decoder'
+p165
+S'<function <lambda>>'
+p166
+sS'after_connection'
+p167
+S'None'
+p168
+sS'fake_migrate_all'
+p169
+g139
+sS'db_uid'
+p170
+S'None'
+p171
+sS'items'
+p172
+S'None'
+p173
+sS'k'
+S'4'
+sS'uri'
+p174
+S"'mysql://root:wtfcall911@localhost/factbook'"
+p175
+sS'pool_size'
+p176
+S'0'
+sS'error'
+p177
+S"''"
+p178
+sS'debug'
+p179
+g139
+sssS'traceback'
+p180
+S'Traceback (most recent call last):\n  File "/opt/web2py/gluon/restricted.py", line 212, in restricted\n    exec ccode in environment\n  File "/opt/web2py/applications/know_your_world/models/db.py", line 1, in <module>\n    db = DAL(\'mysql://root:wtfcall911@localhost/factbook\')\n  File "/opt/web2py/gluon/dal.py", line 7289, in __init__\n    raise RuntimeError("Failure to connect, tried %d times:\\n%s" % (attempts, tb))\nRuntimeError: Failure to connect, tried 5 times:\nTraceback (most recent call last):\n  File "/opt/web2py/gluon/dal.py", line 7269, in __init__\n    self._adapter = ADAPTERS[self._dbname](**kwargs)\n  File "/opt/web2py/gluon/dal.py", line 2479, in __init__\n    if do_connect: self.reconnect()\n  File "/opt/web2py/gluon/dal.py", line 596, in reconnect\n    self.connection = f()\n  File "/opt/web2py/gluon/dal.py", line 2477, in connector\n    return self.driver.connect(**driver_args)\n  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect\n    return Connection(*args, **kwargs)\n  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__\n    super(Connection, self).__init__(*args, **kwargs2)\nOperationalError: (1049, "Unknown database \'factbook\'")\n\n'
+p181
+s.

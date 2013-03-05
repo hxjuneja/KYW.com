@@ -1,0 +1,500 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.SyntaxError'> duplicate field ID in table shitdata"
+p3
+sS'layer'
+p4
+S'/opt/web2py/applications/know_your_world/models/db.py'
+p5
+sS'code'
+p6
+S"db = DAL('mysql://root:wtfcall911@localhost/factbook')\ndb.define_table('shitdata',Field('ID'))\n"
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of exceptions.SyntaxError object>"
+p13
+sS'text'
+p14
+S'None'
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of exceptions.SyntaxError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of exceptions.SyntaxError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of exceptions.SyntaxError object>'
+p23
+sS'__init__'
+p24
+S"<method-wrapper '__init__' of exceptions.SyntaxError object>"
+p25
+sS'__setattr__'
+p26
+S"<method-wrapper '__setattr__' of exceptions.SyntaxError object>"
+p27
+sS'__reduce_ex__'
+p28
+S'<built-in method __reduce_ex__ of exceptions.SyntaxError object>'
+p29
+sS'__new__'
+p30
+S'<built-in method __new__ of type object>'
+p31
+sS'__format__'
+p32
+S'<built-in method __format__ of exceptions.SyntaxError object>'
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.SyntaxError'>"
+p35
+sS'filename'
+p36
+S'None'
+p37
+sS'lineno'
+p38
+S'None'
+p39
+sS'msg'
+p40
+S"'duplicate field ID in table shitdata'"
+p41
+sS'__doc__'
+p42
+S"'Invalid syntax.'"
+p43
+sS'__getitem__'
+p44
+S"<method-wrapper '__getitem__' of exceptions.SyntaxError object>"
+p45
+sS'__setstate__'
+p46
+S'<built-in method __setstate__ of exceptions.SyntaxError object>'
+p47
+sS'__getattribute__'
+p48
+S"<method-wrapper '__getattribute__' of exceptions.SyntaxError object>"
+p49
+sS'print_file_and_line'
+p50
+S'None'
+p51
+sS'args'
+p52
+S"('duplicate field ID in table shitdata',)"
+p53
+sS'__subclasshook__'
+p54
+S'<built-in method __subclasshook__ of type object>'
+p55
+sS'offset'
+p56
+S'None'
+p57
+sS'__unicode__'
+p58
+S'<built-in method __unicode__ of exceptions.SyntaxError object>'
+p59
+sS'__delattr__'
+p60
+S"<method-wrapper '__delattr__' of exceptions.SyntaxError object>"
+p61
+sS'__repr__'
+p62
+S"<method-wrapper '__repr__' of exceptions.SyntaxError object>"
+p63
+sS'__hash__'
+p64
+S"<method-wrapper '__hash__' of exceptions.SyntaxError object>"
+p65
+ssS'evalue'
+p66
+S'duplicate field ID in table shitdata'
+p67
+sS'request'
+p68
+cgluon.html
+XML_unpickle
+p69
+(S'su[\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">ajax</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">application</td><td valign="top">:</td><td><div>know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f27b03cd730&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cid</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">client</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">controller</td><td valign="top">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">registered</td><td valign="top">:</td><td><div>yes<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_admin</td><td valign="top">:</td><td><div>127.0.0.1-68fcb4d7-bded-4687-aa4c-b1e9f69b7d4f<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_eden</td><td valign="top">:</td><td><div>127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_know_your_world</td><td valign="top">:</td><td><div>127.0.0.1-0d121d35-dd09-45d3-90f0-166c9679dc6b<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">env</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/opt/web2py/applications/admin/&#x27;, &#x27;/opt/web2py/applications/know_your_world/&#x27;, &#x27;/opt/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x34b1c20: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;hardik-HP-Pavilion-dv6-Notebook-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/opt/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_charset</td><td valign="top">:</td><td><div>ISO-8859-1,utf-8;q=0.7,*;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_encoding</td><td valign="top">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_language</td><td valign="top">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_cache_control</td><td valign="top">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_connection</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_cookie</td><td valign="top">:</td><td><div>registered=yes; session_id_eden=127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d; session_id_know_your_world=127.0.0.1-0d121d35-dd09-45d3-90f0-166c9679dc6b; session_id_admin=127.0.0.1-68fcb4d7-bded-4687-aa4c-b1e9f69b7d4f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_host</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_referer</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/admin/default/site</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_user_agent</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path_info</td><td valign="top">:</td><td><div>/know_your_world/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">query_string</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_addr</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_port</td><td valign="top">:</td><td><div>38286</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_method</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_uri</td><td valign="top">:</td><td><div>/know_your_world/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">script_name</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_name</td><td valign="top">:</td><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_port</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_protocol</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_software</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_path</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div><table><tr><td><div>2</div></td></tr><tr><td><div>4</div></td></tr><tr><td><div>1</div></td></tr><tr><td><div>alpha.2</div></td></tr><tr><td><div>datetime.datetime(2013, 2, 18, 13, 53, 31)</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f27e82f8270&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x3439870&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_input</td><td valign="top">:</td><td><div>&lt;socket._fileobject object at 0x7f27b03d2d50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_version</td><td valign="top">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">extension</td><td valign="top">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">folder</td><td valign="top">:</td><td><div>/opt/web2py/applications/know_your_world/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">function</td><td valign="top">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">get_vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">global_settings</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/opt/web2py/applications/admin/&#x27;, &#x27;/opt/web2py/applications/know_your_world/&#x27;, &#x27;/opt/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x34b1c20: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;hardik-HP-Pavilion-dv6-Notebook-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/opt/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div><table><tr><td><div>2</div></td></tr><tr><td><div>4</div></td></tr><tr><td><div>1</div></td></tr><tr><td><div>alpha.2</div></td></tr><tr><td><div>datetime.datetime(2013, 2, 18, 13, 53, 31)</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_https</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_local</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_restful</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">now</td><td valign="top">:</td><td><div>datetime.datetime(2013, 3, 2, 16, 50, 43, 125786)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">post_vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_args</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_extension</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">url</td><td valign="top">:</td><td><div>/know_your_world/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">utcnow</td><td valign="top">:</td><td><div>datetime.datetime(2013, 3, 2, 11, 20, 43, 125838)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">uuid</td><td valign="top">:</td><td><div>know_your_world/127.0.0.1.2013-03-02.16-50-43.084e2a3b-ed4a-420c-8c9e-b7047b8e2680</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">environ</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_CHARSET</td><td valign="top">:</td><td><div>ISO-8859-1,utf-8;q=0.7,*;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_ENCODING</td><td valign="top">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_LANGUAGE</td><td valign="top">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_CACHE_CONTROL</td><td valign="top">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_CONNECTION</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_COOKIE</td><td valign="top">:</td><td><div>registered=yes; session_id_eden=127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d; session_id_know_your_world=127.0.0.1-0d121d35-dd09-45d3-90f0-166c9679dc6b; session_id_admin=127.0.0.1-68fcb4d7-bded-4687-aa4c-b1e9f69b7d4f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_HOST</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_REFERER</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/admin/default/site</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_USER_AGENT</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">PATH_INFO</td><td valign="top">:</td><td><div>/know_your_world/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">QUERY_STRING</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_ADDR</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_PORT</td><td valign="top">:</td><td><div>38286</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_METHOD</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_URI</td><td valign="top">:</td><td><div>/know_your_world/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SCRIPT_NAME</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_NAME</td><td valign="top">:</td><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PORT</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PROTOCOL</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_SOFTWARE</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f27e82f8270&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x3439870&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.input</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f27b03cd730&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.version</td><td valign="top">:</td><td><div>1</div></td></tr></table></div></td></tr></table></div></td></tr></table></div>'
+tRp70
+sS'frames'
+p71
+(lp72
+(dp73
+S'file'
+p74
+S'/opt/web2py/gluon/restricted.py'
+p75
+sS'dump'
+p76
+(dp77
+S'environment'
+p78
+S"{'A': <class 'gluon.html.A'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, 'CENTER': <class 'gluon.html.CENTER'>, 'CLEANUP': <class 'gluon.validators.CLEANUP'>, 'CODE': <class 'gluon.html.CODE'>, ...}"
+p79
+sS'ccode'
+p80
+S'<code object <module> at 0x7f27d0133530, file "/...plications/know_your_world/models/db.py", line 1>'
+p81
+ssS'lnum'
+p82
+I212
+sS'lines'
+p83
+(dp84
+I207
+S'    try:'
+p85
+sI208
+S'        if isinstance(code, types.CodeType):'
+p86
+sI209
+S'            ccode = code'
+p87
+sI210
+S'        else:'
+p88
+sI211
+S'            ccode = compile2(code, layer)'
+p89
+sI212
+S'        exec ccode in environment'
+p90
+sI213
+S'    except HTTP:'
+p91
+sI214
+S'        raise'
+p92
+sI215
+S'    except RestrictedError:'
+p93
+sI216
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p94
+ssS'call'
+p95
+S'(code="db = DAL(\'mysql://root:wtfcall911@localhost/factbook\')\\ndb.define_table(\'shitdata\',Field(\'ID\'))\\n", environment={\'A\': <class \'gluon.html.A\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, \'CAT\': <class \'gluon.html.CAT\'>, \'CENTER\': <class \'gluon.html.CENTER\'>, \'CLEANUP\': <class \'gluon.validators.CLEANUP\'>, \'CODE\': <class \'gluon.html.CODE\'>, ...}, layer=\'/opt/web2py/applications/know_your_world/models/db.py\')'
+p96
+sS'func'
+p97
+S'restricted'
+p98
+sa(dp99
+g74
+S'/opt/web2py/applications/know_your_world/models/db.py'
+p100
+sg76
+(dp101
+S'Field'
+p102
+S"<class 'gluon.dal.Field'>"
+p103
+sS'db.define_table'
+p104
+S'<bound method DAL.define_table of <DAL uri="mysql://root:******@localhost/factbook">>'
+p105
+sS'db'
+p106
+S'<DAL uri="mysql://root:******@localhost/factbook">'
+p107
+ssg82
+I2
+sg83
+(dp108
+I1
+S"db = DAL('mysql://root:wtfcall911@localhost/factbook')"
+p109
+sI2
+S"db.define_table('shitdata',Field('ID'))"
+p110
+ssg95
+S'()'
+p111
+sg97
+S'<module>'
+p112
+sa(dp113
+g74
+S'/opt/web2py/gluon/dal.py'
+p114
+sg76
+(dp115
+S'fields'
+p116
+S'(<gluon.dal.Field object>,)'
+p117
+sS'self'
+p118
+S'<DAL uri="mysql://root:******@localhost/factbook">'
+p119
+sS'args'
+p120
+g21
+sS'tablename'
+p121
+S"'shitdata'"
+p122
+sS'table'
+p123
+S'undefined'
+p124
+sS'self.lazy_define_table'
+p125
+S'<bound method DAL.lazy_define_table of <DAL uri="mysql://root:******@localhost/factbook">>'
+p126
+ssg82
+I7644
+sg83
+(dp127
+I7648
+S''
+sI7639
+S'                    % (tablename,invalid_args))'
+p128
+sI7640
+S'        if self._lazy_tables and not tablename in self._LAZY_TABLES:'
+p129
+sI7641
+S'            self._LAZY_TABLES[tablename] = (tablename,fields,args)'
+p130
+sI7642
+S'            table = None'
+p131
+sI7643
+S'        else:'
+p132
+sI7644
+S'            table = self.lazy_define_table(tablename,*fields,**args)'
+p133
+sI7645
+S'        if not tablename in self.tables:'
+p134
+sI7646
+S'            self.tables.append(tablename)'
+p135
+sI7647
+S'        return table'
+p136
+ssg95
+S'(self=<DAL uri="mysql://root:******@localhost/factbook">, tablename=\'shitdata\', *fields=(<gluon.dal.Field object>,), **args={})'
+p137
+sg97
+S'define_table'
+p138
+sa(dp139
+g74
+S'/opt/web2py/gluon/dal.py'
+p140
+sg76
+(dp141
+S'fields'
+p142
+S'(<gluon.dal.Field object>,)'
+p143
+sS'self'
+p144
+S'<DAL uri="mysql://root:******@localhost/factbook">'
+p145
+sS'args'
+p146
+g21
+sS'tablename'
+p147
+S"'shitdata'"
+p148
+sS'table_class'
+p149
+S"<class 'gluon.dal.Table'>"
+p150
+sS'table'
+p151
+g124
+ssg82
+I7661
+sg83
+(dp152
+I7656
+S'        common_fields = self._common_fields'
+p153
+sI7657
+S'        if common_fields:'
+p154
+sI7658
+S'            fields = list(fields) + list(common_fields)'
+p155
+sI7659
+S''
+sI7660
+S"        table_class = args_get('table_class',Table)"
+p156
+sI7661
+S'        table = table_class(self, tablename, *fields, **args)'
+p157
+sI7662
+S'        table._actual = True'
+p158
+sI7663
+S'        self[tablename] = table'
+p159
+sI7664
+S'        # must follow above line to handle self references'
+p160
+sI7665
+S'        table._create_references()'
+p161
+ssg95
+S'(self=<DAL uri="mysql://root:******@localhost/factbook">, tablename=\'shitdata\', *fields=(<gluon.dal.Field object>,), **args={})'
+p162
+sg97
+S'lazy_define_table'
+p163
+sa(dp164
+g74
+S'/opt/web2py/gluon/dal.py'
+p165
+sg76
+(dp166
+S'tablename'
+p167
+S"'shitdata'"
+p168
+sS'field_name'
+p169
+S"'ID'"
+p170
+ssg82
+I8121
+sg83
+(dp171
+I8116
+S'            elif field_name in reserved:'
+p172
+sI8117
+S'                raise SyntaxError("field name %s not allowed" % field_name)'
+p173
+sI8118
+S''
+sI8119
+S'            if field_name.lower() in lower_fieldnames:'
+p174
+sI8120
+S'                raise SyntaxError("duplicate field %s in table %s" \\'
+p175
+sI8121
+S'                    % (field_name, tablename))'
+p176
+sI8122
+S'            else:'
+p177
+sI8123
+S'                lower_fieldnames.add(field_name.lower())'
+p178
+sI8124
+S''
+sI8125
+S'            self.fields.append(field_name)'
+p179
+ssg95
+S'(self=<Table shitdata (id)>, db=<DAL uri="mysql://root:******@localhost/factbook">, tablename=\'shitdata\', *fields=[<gluon.dal.Field object>, <gluon.dal.Field object>], **args={})'
+p180
+sg97
+g24
+sasS'pyver'
+p181
+S'Python 2.7.3: /usr/bin/python (prefix: /usr)'
+p182
+sS'session'
+p183
+g69
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp184
+sS'etype'
+p185
+S"<type 'exceptions.SyntaxError'>"
+p186
+sS'date'
+p187
+S'Sat Mar  2 16:50:43 2013'
+p188
+sS'response'
+p189
+g69
+(S's\xb6\x10\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f27c03d73b0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">session_id_know_your_world</td><td valign="top">:</td><td><div>127.0.0.1-0d121d35-dd09-45d3-90f0-166c9679dc6b<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">delimiters</td><td valign="top">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">files</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">flash</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">generic_patterns</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">headers</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">X-Powered-By</td><td valign="top">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">menu</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">meta</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">models_to_run</td><td valign="top">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">postprocessing</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_cookie_expires</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_data_name</td><td valign="top">:</td><td><div>session_data_know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_file</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_filename</td><td valign="top">:</td><td><div>/opt/web2py/applications/know_your_world/sessions/127.0.0.1-0d121d35-dd09-45d3-90f0-166c9679dc6b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id</td><td valign="top">:</td><td><div>127.0.0.1-0d121d35-dd09-45d3-90f0-166c9679dc6b</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_name</td><td valign="top">:</td><td><div>session_id_know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_new</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_storage_type</td><td valign="top">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">status</td><td valign="top">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">view</td><td valign="top">:</td><td><div>default/index.html</div></td></tr></table></div>'
+tRp190
+sS'locals'
+p191
+(dp192
+S'lower_fieldnames'
+p193
+S"set(['id'])"
+p194
+sS'reserved'
+p195
+S"['__call__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dict__', '__doc__', '__format__', '__getattr__', '__getattribute__', '__getitem__', '__hash__', '__init__', '__iter__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', ...]"
+p196
+sS'f'
+S'<gluon.dal.Field object>'
+p197
+sS'fields'
+p198
+S'[<gluon.dal.Field object>, <gluon.dal.Field object>]'
+p199
+sS'self'
+p200
+S'<Table shitdata (id)>'
+p201
+sg52
+g21
+sS'db'
+p202
+S'<DAL uri="mysql://root:******@localhost/factbook">'
+p203
+sS'fieldnames'
+p204
+S"set(['ID', 'id'])"
+p205
+sS'newfields'
+p206
+S'[<gluon.dal.Field object>, <gluon.dal.Field object>]'
+p207
+sS'field'
+p208
+S'<gluon.dal.Field object>'
+p209
+sS'tablename'
+p210
+S"'shitdata'"
+p211
+sS'field_name'
+p212
+S"'ID'"
+p213
+sS'virtual_fields'
+p214
+S'[]'
+p215
+sssS'traceback'
+p216
+S'Traceback (most recent call last):\n  File "/opt/web2py/gluon/restricted.py", line 212, in restricted\n    exec ccode in environment\n  File "/opt/web2py/applications/know_your_world/models/db.py", line 2, in <module>\n    db.define_table(\'shitdata\',Field(\'ID\'))\n  File "/opt/web2py/gluon/dal.py", line 7644, in define_table\n    table = self.lazy_define_table(tablename,*fields,**args)\n  File "/opt/web2py/gluon/dal.py", line 7661, in lazy_define_table\n    table = table_class(self, tablename, *fields, **args)\n  File "/opt/web2py/gluon/dal.py", line 8121, in __init__\n    % (field_name, tablename))\nSyntaxError: duplicate field ID in table shitdata\n'
+p217
+s.

@@ -1,0 +1,390 @@
+(dp1
+S'output'
+p2
+S''
+sS'layer'
+p3
+S'Framework'
+p4
+sS'code'
+p5
+S''
+sS'snapshot'
+p6
+(dp7
+S'exception'
+p8
+(dp9
+S'__module__'
+p10
+S"'_mysql_exceptions'"
+p11
+sS'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of OperationalError object>"
+p13
+sS'__str__'
+p14
+S"<method-wrapper '__str__' of OperationalError object>"
+p15
+sS'__reduce__'
+p16
+S'<built-in method __reduce__ of OperationalError object>'
+p17
+sS'__dict__'
+p18
+S'{}'
+p19
+sS'__sizeof__'
+p20
+S'<built-in method __sizeof__ of OperationalError object>'
+p21
+sS'__weakref__'
+p22
+S'None'
+p23
+sS'__init__'
+p24
+S"<method-wrapper '__init__' of OperationalError object>"
+p25
+sS'__setattr__'
+p26
+S"<method-wrapper '__setattr__' of OperationalError object>"
+p27
+sS'__reduce_ex__'
+p28
+S'<built-in method __reduce_ex__ of OperationalError object>'
+p29
+sS'__new__'
+p30
+S'<built-in method __new__ of type object>'
+p31
+sS'__format__'
+p32
+S'<built-in method __format__ of OperationalError object>'
+p33
+sS'__class__'
+p34
+S"<class '_mysql_exceptions.OperationalError'>"
+p35
+sS'__doc__'
+p36
+S"'Exception raised for errors that are related to ...cation\\n    error occurred during processing, etc.'"
+p37
+sS'__getitem__'
+p38
+S"<method-wrapper '__getitem__' of OperationalError object>"
+p39
+sS'__setstate__'
+p40
+S'<built-in method __setstate__ of OperationalError object>'
+p41
+sS'__getattribute__'
+p42
+S"<method-wrapper '__getattribute__' of OperationalError object>"
+p43
+sS'args'
+p44
+S"(2006, 'MySQL server has gone away')"
+p45
+sS'__subclasshook__'
+p46
+S'<built-in method __subclasshook__ of type object>'
+p47
+sS'__unicode__'
+p48
+S'<built-in method __unicode__ of OperationalError object>'
+p49
+sS'__delattr__'
+p50
+S"<method-wrapper '__delattr__' of OperationalError object>"
+p51
+sS'__repr__'
+p52
+S"<method-wrapper '__repr__' of OperationalError object>"
+p53
+sS'__hash__'
+p54
+S"<method-wrapper '__hash__' of OperationalError object>"
+p55
+ssS'evalue'
+p56
+S"(2006, 'MySQL server has gone away')"
+p57
+sS'request'
+p58
+cgluon.html
+XML_unpickle
+p59
+(S's\xd3d\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">ajax</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">application</td><td valign="top">:</td><td><div>know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f56c04db308&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cid</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">client</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">controller</td><td valign="top">:</td><td><div>appadmin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">registered</td><td valign="top">:</td><td><div>yes<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_admin</td><td valign="top">:</td><td><div>127.0.0.1-18aefbe4-016e-4034-a8a8-12cd0449a721<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_eden</td><td valign="top">:</td><td><div>127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_images</td><td valign="top">:</td><td><div>127.0.0.1-881e18b7-7e30-4483-89c4-aa2120958aa4<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_know_your_world</td><td valign="top">:</td><td><div>127.0.0.1-aa8b2579-fa83-4b64-9b56-67bb906cd7ce<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_welcome</td><td valign="top">:</td><td><div>127.0.0.1-cf97d4a2-b648-47f9-8d8b-2b4ec3a40a98<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">env</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/opt/web2py/applications/eden/&#x27;, &#x27;/opt/web2py/applications/admin/&#x27;, &#x27;/opt/web2py/applications/know_your_world/&#x27;, &#x27;/opt/web2py/applications/images/&#x27;, &#x27;/opt/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x1e9fc20: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;hardik-HP-Pavilion-dv6-Notebook-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/opt/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_charset</td><td valign="top">:</td><td><div>ISO-8859-1,utf-8;q=0.7,*;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_encoding</td><td valign="top">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_accept_language</td><td valign="top">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_connection</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_cookie</td><td valign="top">:</td><td><div>registered=yes; session_id_eden=127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d; session_id_welcome=127.0.0.1-cf97d4a2-b648-47f9-8d8b-2b4ec3a40a98; session_id_know_your_world=127.0.0.1-aa8b2579-fa83-4b64-9b56-67bb906cd7ce; session_id_images=127.0.0.1-881e18b7-7e30-4483-89c4-aa2120958aa4; session_id_admin=127.0.0.1-18aefbe4-016e-4034-a8a8-12cd0449a721</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_host</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_referer</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/admin/default/design/know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">http_user_agent</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path_info</td><td valign="top">:</td><td><div>/know_your_world/appadmin/auto_fill</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">query_string</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_addr</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">remote_port</td><td valign="top">:</td><td><div>33783</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_method</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">request_uri</td><td valign="top">:</td><td><div>/know_your_world/appadmin/auto_fill</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">script_name</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_name</td><td valign="top">:</td><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_port</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_protocol</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">server_software</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_path</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div><table><tr><td><div>2</div></td></tr><tr><td><div>4</div></td></tr><tr><td><div>1</div></td></tr><tr><td><div>alpha.2</div></td></tr><tr><td><div>datetime.datetime(2013, 2, 18, 13, 53, 31)</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f574c36c270&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1e27870&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_input</td><td valign="top">:</td><td><div>&lt;socket._fileobject object at 0x7f572039b5d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi_version</td><td valign="top">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">extension</td><td valign="top">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">folder</td><td valign="top">:</td><td><div>/opt/web2py/applications/know_your_world/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">function</td><td valign="top">:</td><td><div>auto_fill</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">get_vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">global_settings</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">app_folders</td><td valign="top">:</td><td><div>set([&#x27;/opt/web2py/applications/eden/&#x27;, &#x27;/opt/web2py/applications/admin/&#x27;, &#x27;/opt/web2py/applications/know_your_world/&#x27;, &#x27;/opt/web2py/applications/images/&#x27;, &#x27;/opt/web2py/applications/welcome/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">applications_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_args</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cmd_options</td><td valign="top">:</td><td><div>&lt;Values at 0x1e9fc20: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;with_scheduler&#x27;: False, &#x27;ips&#x27;: [], &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;port&#x27;: 8000, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;hardik-HP-Pavilion-dv6-Notebook-PC&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/opt/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;winservice&#x27;: &#x27;&#x27;, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;profiler_filename&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;scheduler_groups&#x27;: None, &#x27;password&#x27;: &#x27;&lt;ask&gt;&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;interfaces&#x27;: None, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">db_sessions</td><td valign="top">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">debugging</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">gluon_parent</td><td valign="top">:</td><td><div>/opt/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_jython</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_pypy</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">local_hosts</td><td valign="top">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">web2py_version</td><td valign="top">:</td><td><div><table><tr><td><div>2</div></td></tr><tr><td><div>4</div></td></tr><tr><td><div>1</div></td></tr><tr><td><div>alpha.2</div></td></tr><tr><td><div>datetime.datetime(2013, 2, 18, 13, 53, 31)</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_https</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_local</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">is_restful</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">now</td><td valign="top">:</td><td><div>datetime.datetime(2013, 3, 4, 16, 33, 53, 433821)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">post_vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_args</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">raw_extension</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">url</td><td valign="top">:</td><td><div>/know_your_world/appadmin/auto_fill</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">utcnow</td><td valign="top">:</td><td><div>datetime.datetime(2013, 3, 4, 11, 3, 53, 433847)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">uuid</td><td valign="top">:</td><td><div>know_your_world/127.0.0.1.2013-03-04.16-33-53.bc471175-4677-436e-ac9b-6655a4ab25c6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">vars</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">environ</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT</td><td valign="top">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_CHARSET</td><td valign="top">:</td><td><div>ISO-8859-1,utf-8;q=0.7,*;q=0.3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_ENCODING</td><td valign="top">:</td><td><div>gzip,deflate,sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_ACCEPT_LANGUAGE</td><td valign="top">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_CONNECTION</td><td valign="top">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_COOKIE</td><td valign="top">:</td><td><div>registered=yes; session_id_eden=127.0.0.1-a2585483-80db-4a80-94cb-cb641bfd012d; session_id_welcome=127.0.0.1-cf97d4a2-b648-47f9-8d8b-2b4ec3a40a98; session_id_know_your_world=127.0.0.1-aa8b2579-fa83-4b64-9b56-67bb906cd7ce; session_id_images=127.0.0.1-881e18b7-7e30-4483-89c4-aa2120958aa4; session_id_admin=127.0.0.1-18aefbe4-016e-4034-a8a8-12cd0449a721</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_HOST</td><td valign="top">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_REFERER</td><td valign="top">:</td><td><div>http://127.0.0.1:8000/admin/default/design/know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">HTTP_USER_AGENT</td><td valign="top">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">PATH_INFO</td><td valign="top">:</td><td><div>/know_your_world/appadmin/auto_fill</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">QUERY_STRING</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_ADDR</td><td valign="top">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REMOTE_PORT</td><td valign="top">:</td><td><div>33783</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_METHOD</td><td valign="top">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">REQUEST_URI</td><td valign="top">:</td><td><div>/know_your_world/appadmin/auto_fill</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SCRIPT_NAME</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_NAME</td><td valign="top">:</td><td><div>hardik-HP-Pavilion-dv6-Notebook-PC</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PORT</td><td valign="top">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_PROTOCOL</td><td valign="top">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">SERVER_SOFTWARE</td><td valign="top">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.errors</td><td valign="top">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7f574c36c270&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.file_wrapper</td><td valign="top">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1e27870&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.input</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f56c04db308&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multiprocess</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.multithread</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.run_once</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.url_scheme</td><td valign="top">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">wsgi.version</td><td valign="top">:</td><td><div>1</div></td></tr></table></div></td></tr></table></div></td></tr></table></div>'
+tRp60
+sS'frames'
+p61
+(lp62
+(dp63
+S'file'
+p64
+S'/opt/web2py/gluon/main.py'
+p65
+sS'dump'
+p66
+(dp67
+S'BaseAdapter.close_all_instances'
+p68
+S'<function close_all_instances>'
+p69
+sS'global BaseAdapter'
+p70
+S"<class 'gluon.dal.BaseAdapter'>"
+p71
+ssS'lnum'
+p72
+I633
+sS'lines'
+p73
+(dp74
+I628
+S''
+sI629
+S'            try:'
+p75
+sI630
+S'                if response._custom_rollback:'
+p76
+sI631
+S'                    response._custom_rollback()'
+p77
+sI632
+S'                else:'
+p78
+sI633
+S"                    BaseAdapter.close_all_instances('rollback')"
+p79
+sI634
+S'            except:'
+p80
+sI635
+S'                pass'
+p81
+sI636
+S"            e = RestrictedError('Framework', '', '', locals())"
+p82
+sI637
+S"            ticket = e.log(request) or 'unrecoverable'"
+p83
+ssS'call'
+p84
+S"(environ={'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'HTTP_ACCEPT_CHARSET': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3', 'HTTP_ACCEPT_ENCODING': 'gzip,deflate,sdch', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_COOKIE': 'registered=yes; session_id_eden=127.0.0.1-a25854...in=127.0.0.1-18aefbe4-016e-4034-a8a8-12cd0449a721', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_REFERER': 'http://127.0.0.1:8000/admin/default/design/know_your_world', 'HTTP_USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537....ML, like Gecko) Chrome/25.0.1364.97 Safari/537.22', 'PATH_INFO': '/know_your_world/appadmin/auto_fill', ...}, responder=<function responder2>)"
+p85
+sS'func'
+p86
+S'wsgibase'
+p87
+sa(dp88
+g64
+S'/opt/web2py/gluon/dal.py'
+p89
+sg66
+(dp90
+S'action'
+p91
+S"'rollback'"
+p92
+sS'db._adapter'
+p93
+S'<gluon.dal.MySQLAdapter object>'
+p94
+sS'db'
+p95
+S'<DAL uri="mysql://root:******@localhost/factbook">'
+p96
+sS'db._adapter.close'
+p97
+S'<bound method MySQLAdapter.close of <gluon.dal.MySQLAdapter object>>'
+p98
+ssg72
+I557
+sg73
+(dp99
+I552
+S'        """ to close cleanly databases in a multithreaded environment """'
+p100
+sI553
+S"        dbs = getattr(THREAD_LOCAL,'db_instances',{}).items()"
+p101
+sI554
+S'        for db_uid, db_group in dbs:'
+p102
+sI555
+S'            for db in db_group:'
+p103
+sI556
+S"                if hasattr(db,'_adapter'):"
+p104
+sI557
+S'                    db._adapter.close(action)'
+p105
+sI558
+S"        getattr(THREAD_LOCAL,'db_instances',{}).clear()"
+p106
+sI559
+S"        getattr(THREAD_LOCAL,'db_instances_zombie',{}).clear()"
+p107
+sI560
+S'        if callable(action):'
+p108
+sI561
+S'            action(None)'
+p109
+ssg84
+S"(action='rollback')"
+p110
+sg86
+S'close_all_instances'
+p111
+sa(dp112
+g64
+S'/opt/web2py/gluon/dal.py'
+p113
+sg66
+(dp114
+S'action'
+p115
+S"'rollback'"
+p116
+sS'self'
+p117
+S'<gluon.dal.MySQLAdapter object>'
+p118
+sS'builtingetattr'
+p119
+S'<built-in function getattr>'
+p120
+ssg72
+I537
+sg73
+(dp121
+I532
+S"    def close(self,action='commit',really=True):"
+p122
+sI533
+S'        if action:'
+p123
+sI534
+S'            if callable(action):'
+p124
+sI535
+S'                action(self)'
+p125
+sI536
+S'            else:'
+p126
+sI537
+S'                getattr(self, action)()'
+p127
+sI538
+S'        # ## if you want pools, recycle this connection'
+p128
+sI539
+S'        if self.pool_size:'
+p129
+sI540
+S'            GLOBAL_LOCKER.acquire()'
+p130
+sI541
+S'            pool = ConnectionPool.POOLS[self.uri]'
+p131
+ssg84
+S"(self=<gluon.dal.MySQLAdapter object>, action='rollback', really=True)"
+p132
+sg86
+S'close'
+p133
+sa(dp134
+g64
+S'/opt/web2py/gluon/dal.py'
+p135
+sg66
+(dp136
+S'self'
+p137
+S'<gluon.dal.MySQLAdapter object>'
+p138
+sS'self.connection'
+p139
+S"<_mysql.connection open to 'localhost' at 7f56c026d360>"
+p140
+sS'self.connection.rollback'
+p141
+S'<built-in method rollback of Connection object>'
+p142
+ssg72
+I1717
+sg73
+(dp143
+I1712
+S''
+sI1713
+S'    def commit(self):'
+p144
+sI1714
+S'        if self.connection: return self.connection.commit()'
+p145
+sI1715
+S''
+sI1716
+S'    def rollback(self):'
+p146
+sI1717
+S'        if self.connection: return self.connection.rollback()'
+p147
+sI1718
+S''
+sI1719
+S'    def close_connection(self):'
+p148
+sI1720
+S'        if self.connection: return self.connection.close()'
+p149
+sI1721
+S''
+ssg84
+S'(self=<gluon.dal.MySQLAdapter object>)'
+p150
+sg86
+S'rollback'
+p151
+sasS'pyver'
+p152
+S'Python 2.7.3: /usr/bin/python (prefix: /usr)'
+p153
+sS'session'
+p154
+g59
+(S's\x16\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">last_orderby</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">last_query</td><td valign="top">:</td><td><div>db.sdata.id&gt;0</div></td></tr></table></div>'
+tRp155
+sS'etype'
+p156
+S"<class '_mysql_exceptions.OperationalError'>"
+p157
+sS'date'
+p158
+S'Mon Mar  4 16:46:16 2013'
+p159
+sS'response'
+p160
+g59
+(S's\x02\x19\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top">body</td><td valign="top">:</td><td><div>&lt;cStringIO.StringO object at 0x7f56a45608f0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">cookies</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">session_id_know_your_world</td><td valign="top">:</td><td><div>127.0.0.1-aa8b2579-fa83-4b64-9b56-67bb906cd7ce<table><tr><td style="font-weight:bold;vertical-align:top">comment</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">domain</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">expires</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">httponly</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">max-age</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">path</td><td valign="top">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">secure</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">version</td><td valign="top">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">delimiters</td><td valign="top">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">files</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">flash</td><td valign="top">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">generic_patterns</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">google_analytics_id</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">headers</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">X-Powered-By</td><td valign="top">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">logo</td><td valign="top">:</td><td><div><a class="brand" href="http://www.web2py.com/"><b>web<span>2</span>py</b>&trade;&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">menu</td><td valign="top">:</td><td><div><table><tr><td><div><table><tr><td><div>design</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design/know_your_world</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>db</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/know_your_world/appadmin/index</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>state</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/know_your_world/appadmin/state</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>cache</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/know_your_world/appadmin/ccache</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">meta</td><td valign="top">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top">author</td><td valign="top">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">description</td><td valign="top">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">generator</td><td valign="top">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">keywords</td><td valign="top">:</td><td><div>web2py, python, framework</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">models_to_run</td><td valign="top">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/\\w+\\.py$</div></td></tr><tr><td><div>^appadmin/auto_fill/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">postprocessing</td><td valign="top">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_cookie_expires</td><td valign="top">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_data_name</td><td valign="top">:</td><td><div>session_data_know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_file</td><td valign="top">:</td><td><div>&lt;open file &#x27;/opt/web2py/applications/know_your_world/sessions/127.0.0.1-aa8b2579-fa83-4b64-9b56-67bb906cd7ce&#x27;, mode &#x27;rb+&#x27; at 0x7f5718650390&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_filename</td><td valign="top">:</td><td><div>/opt/web2py/applications/know_your_world/sessions/127.0.0.1-aa8b2579-fa83-4b64-9b56-67bb906cd7ce</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id</td><td valign="top">:</td><td><div>127.0.0.1-aa8b2579-fa83-4b64-9b56-67bb906cd7ce</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_id_name</td><td valign="top">:</td><td><div>session_id_know_your_world</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_locked</td><td valign="top">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_new</td><td valign="top">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">session_storage_type</td><td valign="top">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">status</td><td valign="top">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">subtitle</td><td valign="top">:</td><td><div>Database Administration (appadmin)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">title</td><td valign="top">:</td><td><div>Know Your World</div></td></tr><tr><td style="font-weight:bold;vertical-align:top">view</td><td valign="top">:</td><td><div>appadmin.html</div></td></tr></table></div>'
+tRp161
+sS'locals'
+p162
+(dp163
+S'self'
+p164
+S'<gluon.dal.MySQLAdapter object>'
+p165
+sssS'traceback'
+p166
+S'Traceback (most recent call last):\n  File "/opt/web2py/gluon/main.py", line 633, in wsgibase\n    BaseAdapter.close_all_instances(\'rollback\')\n  File "/opt/web2py/gluon/dal.py", line 557, in close_all_instances\n    db._adapter.close(action)\n  File "/opt/web2py/gluon/dal.py", line 537, in close\n    getattr(self, action)()\n  File "/opt/web2py/gluon/dal.py", line 1717, in rollback\n    if self.connection: return self.connection.rollback()\nOperationalError: (2006, \'MySQL server has gone away\')\n'
+p167
+s.

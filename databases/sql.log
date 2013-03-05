@@ -1,0 +1,123 @@
+timestamp: 2013-02-28T01:33:31.796007
+CREATE TABLE auth_user(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name CHAR(128),
+    last_name CHAR(128),
+    email CHAR(512),
+    password CHAR(512),
+    registration_key CHAR(512),
+    reset_password_key CHAR(512),
+    registration_id CHAR(512)
+);
+success!
+timestamp: 2013-02-28T01:33:31.925275
+CREATE TABLE auth_group(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    role CHAR(512),
+    description TEXT
+);
+success!
+timestamp: 2013-02-28T01:33:32.048658
+CREATE TABLE auth_membership(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE
+);
+success!
+timestamp: 2013-02-28T01:33:32.182630
+CREATE TABLE auth_permission(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE,
+    name CHAR(512),
+    table_name CHAR(512),
+    record_id INTEGER
+);
+success!
+timestamp: 2013-02-28T01:33:32.316608
+CREATE TABLE auth_event(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    time_stamp TIMESTAMP,
+    client_ip CHAR(512),
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    origin CHAR(512),
+    description TEXT
+);
+success!
+timestamp: 2013-02-28T01:33:32.450907
+CREATE TABLE auth_cas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    created_on TIMESTAMP,
+    service CHAR(512),
+    ticket CHAR(512),
+    renew CHAR(1)
+);
+success!
+timestamp: 2013-03-02T15:09:19.495996
+CREATE TABLE SHITDATA(
+    id INT AUTO_INCREMENT NOT NULL,
+    country_id VARCHAR(255),
+    country VARCHAR(255),
+    data VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2013-03-02T16:54:25.809182
+CREATE TABLE shitdata(
+    id INT AUTO_INCREMENT NOT NULL,
+    country_id VARCHAR(255) UNIQUE,
+    country VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-03-02T17:01:27.260855
+ALTER TABLE shitdata ADD data VARCHAR(255);
+success!
+timestamp: 2013-03-04T02:12:27.324245
+CREATE TABLE sd(
+    id INT AUTO_INCREMENT NOT NULL,
+    country_id VARCHAR(255) UNIQUE,
+    country VARCHAR(255),
+    data VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-03-04T14:10:47.936206
+CREATE TABLE sdata(
+    id INT AUTO_INCREMENT NOT NULL,
+    country_id VARCHAR(255) UNIQUE,
+    country VARCHAR(255),
+    data VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-03-04T15:40:53.075491
+ALTER TABLE sdata ADD data__tmp BIGINT AUTO_INCREMENT NOT NULL;
+timestamp: 2013-03-04T15:41:06.126008
+ALTER TABLE sdata ADD data__tmp LONGBLOB;
+success!
+UPDATE sdata SET data__tmp=data;
+success!
+ALTER TABLE sdata DROP COLUMN data;
+success!
+ALTER TABLE sdata ADD data LONGBLOB;
+success!
+UPDATE sdata SET data=data__tmp;
+success!
+ALTER TABLE sdata DROP COLUMN data__tmp;
+success!
+TRUNCATE TABLE sdata ;
+success!
+TRUNCATE TABLE sdata ;
+success!
+TRUNCATE TABLE sdata ;
+success!
+TRUNCATE TABLE sdata ;
+success!
+TRUNCATE TABLE sdata ;
+success!
+TRUNCATE TABLE sdata ;
+success!
+TRUNCATE TABLE sdata ;
+success!
+TRUNCATE TABLE sdata ;
+success!

@@ -1,0 +1,3 @@
+{{extend 'layout.html'}}
+<h1>whats up?</h1>
+<h3>{{=message}}</h3>
