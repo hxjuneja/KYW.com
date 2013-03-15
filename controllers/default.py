@@ -11,6 +11,29 @@ def map():
     else:
         return dict(form = form,row=row)
 
+def gmap():
+    form = FORM('country:',INPUT(size=20,_id="country",_name='country',requires=IS_NOT_EMPTY()),INPUT(_type='submit'))
+    row = ""
+    if form.accepts(request):
+        response.flash="hey form accepted"
+        row = db.sdata(db.sdata.country==form.vars.country)
+        return dict(form=form,row=row)
+    else:
+        return dict(form = form,row=row)
+
+def ajax():
+    
+    msg = request.vars.q;
+    msg = msg.lstrip()
+    if(msg):
+        record = db.sdata(db.sdata.country==msg)
+        #r = db.sdata(db.sdata.country==msg)
+    else:
+        record = "some prob here"
+    
+    return dict(r = record)     
+    
+    
 def user():
     """
     exposes:

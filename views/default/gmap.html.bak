@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+    </style>
+    
+    <script>
+    	function showdata(st)
+            {
+            	var xmlhttp;
+                //document.getElementById("p").innerHTML = st;
+               
+            	if(st=="")
+                {
+                    document.getElementById("pp").innerHTML = "";
+                    return;
+                }
+                if(window.XMLHttpRequest)
+                {
+
+                	xmlhttp = new XMLHttpRequest();
+                }
+                else
+  				{// code for IE6, IE5
+  					xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  				}
+            	xmlhttp.onreadystatechange=function()
+  				{
+  					if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    				{
+    					document.getElementById("data").innerHTML=xmlhttp.responseText;
+    				}
+  				}
+                    //var b= "hello";
+                    xmlhttp.open("GET","ajax.html?q="+st,true);
+                //xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+				xmlhttp.send();    
+            	
+            }
+    	
+    </script>
+    
+    
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtnTt4diLgTb8nC0P9FCFttB2GgdHLGqk&sensor=true">
+    </script>
+    <script type="text/javascript">
+     var map;
+     var geocoder;
+     var marker = null;
+     function initialize() {
+       geocoder = new google.maps.Geocoder();
+       var myLatlng = new google.maps.LatLng(0,0);
+       var mapOptions = {
+       zoom: 1,
+       center: myLatlng,
+       mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+     map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+     google.maps.event.addListener(map, 'click', function(event) {
+        placeMarker(event.latLng);
+        }); 
+     }
+  
+       //;;  document.getElementById("pp").innerHTML="anything";
+     
+    function placeMarker(location) {
+     if(marker)
+      {
+        marker.setMap(null);   
+      }
+     marker = new google.maps.Marker({
+      position: location,
+      map: map
+       });
+     
+            
+   
+      // geo coding function 
+
+      var ll = marker.getPosition();
+      geocoder.geocode({'latLng': ll}, function(results, status) {
+         if (status == google.maps.GeocoderStatus.OK) {
+             if (results[1]) {
+             var n = results[1].formatted_address;
+                 //document.getElementById("p").innerHTML=str;
+              n = n.split(",");
+             map.setZoom(1);
+             document.getElementById("pp").innerHTML= n[n.length-1];               
+             var st =n[n.length-1];
+                 showdata(st);
+                 
+             }
+         }
+        else {
+            document.getElementById("pp").innerHTML ="not a country";
+           marker.setMap(null);
+         }
+     });
+
+  }
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas" style="width:50%; height:50%"></div>
+    <p id="pp" ></p>
+    <p id="p"></p>
+      <div id="data"></div>
+  </body>
+</html>
