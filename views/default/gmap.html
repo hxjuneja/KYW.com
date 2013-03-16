@@ -1,7 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    
+    <!--  STYLES TO BE TRANSFERED          -->
+    	
+	<style type="text/css">
+
+	 #map_canvas {
+                       position : relative;
+		       left : 200px;	 
+		 	top :100px; 			
+			}
+
+	#pp  {
+		position : relative;
+		left : 500px;
+		top : 100px;
+		
+		  }		
+	#accordion {
+		
+		position: relative;
+		left : 200px;
+		top : 100px;
+		}
+	body {
+		background-image: url("{{=URL('static','images/background.png')}}");
+		  }
+			
+	</style>
+	
+    <!--  ------------------------------------    -->
+      
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>  
+        <script type="text/javascript"> 
+       
+ 	
+     	$(function() {  
+         $("#accordion").accordion('destroy').accordion();  
+          });
+  
+        </script>
+
+
     <style type="text/css">
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0 }
@@ -32,7 +76,14 @@
   				{
   					if (xmlhttp.readyState==4 && xmlhttp.status==200)
     				{
-    					document.getElementById("data").innerHTML=xmlhttp.responseText;
+    					document.getElementById("accordion").innerHTML=xmlhttp.responseText;
+					 $(function() {  
+        				 $("#accordion").accordion('destroy').accordion({
+										autoHeight: false,
+										active : false,
+										collapsible: true	
+										});  
+         						 });
     				}
   				}
                     //var b= "hello";
@@ -94,7 +145,8 @@
              document.getElementById("pp").innerHTML= n[n.length-1];               
              var st =n[n.length-1];
                  showdata(st);
-                 
+		  
+    
              }
          }
         else {
@@ -110,6 +162,7 @@
     <div id="map_canvas" style="width:50%; height:50%"></div>
     <p id="pp" ></p>
     <p id="p"></p>
-      <div id="data"></div>
+    <div id="accordion"></div>
+      
   </body>
 </html>

@@ -1,7 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    
+    <!--  STYLES TO BE TRANSFERED          -->
+    	
+	<style type="text/css">
+
+	 #map_canvas {
+                       position : relative;
+		       left : 200px;	 
+		 	top :100px; 			
+			}
+
+	#pp  {
+		position : relative;
+		left : 500px;
+		top : 100px;
+		
+		  }		
+	#accordion {
+		
+		position: relative;
+		left : 200px;
+		top : 100px;
+		}
+	body {
+		background-image: url("{{=URL('static','images/background.png')}}");
+		  }
+			
+	</style>
+	
+    <!--  ------------------------------------    -->
+      
+    
+      <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+      <script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <style type="text/css">
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0 }
@@ -32,7 +69,7 @@
   				{
   					if (xmlhttp.readyState==4 && xmlhttp.status==200)
     				{
-    					document.getElementById("data").innerHTML=xmlhttp.responseText;
+    					document.getElementById("accordion").innerHTML=xmlhttp.responseText;
     				}
   				}
                     //var b= "hello";
@@ -110,6 +147,14 @@
     <div id="map_canvas" style="width:50%; height:50%"></div>
     <p id="pp" ></p>
     <p id="p"></p>
-      <div id="data"></div>
+      <div id="accordion"></div>
+      
+      <script>
+$( "#accordion" ).accordion();
+
+$(".head").click(function(){
+    $(".panel").slideDown("slow");
+  });
+</script>
   </body>
 </html>
