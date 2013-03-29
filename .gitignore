@@ -1,0 +1,10 @@
+#logs,databases and errors#
+##########################
+sessions/*
+errors/*
+*.log
+
+#   packages   #
+###############
+*.zip
+*.tar

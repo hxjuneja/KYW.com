@@ -4,25 +4,13 @@ import MySQLdb as mdb
 
 def fill():
     page = urllib2.urlopen("https://www.cia.gov/library/publications/the-world-factbook/index.html")
-
     soup = BeautifulSoup(page)
-
     ul_tag = soup.find_all('ul',class_="af")
-
     ul_tag = ul_tag[0]
-
     a_tag = ul_tag.find_all('a')
+    
     db.sdata.truncate()
-    #con = mdb.connect(host='localhost',user='root',passwd='wtfcall911',db='factbook')
-    #cur = con.cursor()
-#cur.execute("DROP TABLE IF EXISTS SHITDATA")
 
-#sql = """CREATE TABLE shitdata (
-#	     country_id TEXT NOT NULL PRIMARY KEY,
-#	     country TEXT ,
-#	     data LONGTEXT)"""
-
-#cur.execute(sql)
     for tag in a_tag:
         tag = str(tag)
         soup2 = BeautifulSoup(tag)
