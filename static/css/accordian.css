@@ -2,14 +2,18 @@
  body { height: 100%; margin: 0; padding: 0 }
  #map_canvas { height: 100% }
 
- 
+ #accordian_container {
+        position: relative;
+        left: 1330px;
+        bottom: 495px; 
+        width : 1000px;
+        margin: 0px;
+ }
  #accordion {
 		
 		width: 50%;
-		position: relative;
-		left : 200px;
-		top : 30px;
-
+		float: left;
+        
 		}
  
  #accordion .ui-accordion-content {  

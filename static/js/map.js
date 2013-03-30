@@ -1,7 +1,7 @@
 
 
 
-    
+     
      var map;
      var geocoder;
      var marker = null;
@@ -9,7 +9,7 @@
        geocoder = new google.maps.Geocoder();
        var myLatlng = new google.maps.LatLng(0,0);
        var mapOptions = {
-       zoom: 1,
+       zoom: 2,
        center: myLatlng,
        mapTypeId: google.maps.MapTypeId.ROADMAP
       }
@@ -43,11 +43,13 @@
              var n = results[1].formatted_address;
                  //document.getElementById("p").innerHTML=str;
               n = n.split(",");
-             map.setZoom(1);
+             map.setZoom(2);
              document.getElementById("pp").innerHTML= n[n.length-1];               
              var st =n[n.length-1];
                  showdata(st);
-                 
+                 $(document).unbind('scroll'); 
+                 $('body').css({'overflow':'visible'});
+                 $('html,body').animate({scrollLeft: 1000}, 500, "swing");                 
              }
          }
         else {
@@ -56,4 +58,8 @@
          }
      });
 
+  }
+   function scrollRight()
+  {
+   window.scrollTo(0,0)
   }

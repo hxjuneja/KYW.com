@@ -2,29 +2,39 @@
 <html>
   <head>  
  
- 
-    	<link href="{{=URL('static', 'css/map.css')}}" rel="stylesheet" type="text/css" /> 
+       
+       	<link href="{{=URL('static', 'css/map.css')}}" rel="stylesheet" type="text/css" /> 
       <link href="{{=URL('static', 'css/accordian.css')}}" rel="stylesheet" type="text/css" />      
 	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>  
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>  
-      <script type="text/javascript"> 
-     	   $(function() {  
-           $("#accordion").accordion('destroy').accordion();  
-          });
-      </script>
       <script src="{{=URL('static','js/ajax.js')}}"></script>
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtnTt4diLgTb8nC0P9FCFttB2GgdHLGqk&sensor=true">
       </script>
       <script src="{{=URL('static','js/map.js')}}"></script>
-  </head>
+      <script type="text/javascript"> 
+         $(function() {  
+           $("#accordion").accordion('destroy').accordion();  
+          });
+         $("#back").click(function() {
+              $('html,body').animate({scrollRight: 1000}, 500, "swing");
+         });
 
+      </script>
+
+  </head>
+   <script type="text/javascript"> //$('body').css({'overflow':'hidden'});
+                                     // $(document).bind('scroll',function () { 
+                                     // window.scrollTo(0,0); 
+//                                      });
+</script>
 
   <body onload="initialize()">
-    
+
     <div id="header">
         <div id="logo">
             Know Your World
         </div>
+        
     </div>
     
     <div id="container">
@@ -38,8 +48,11 @@
         </div> 
 
         <p id="pp" ></p>
-        
-        <div id="accordion"></div>
+        <input type="button" id="back" onclick="scrollRight()"/>
+        <div id="accordian_container">
+            
+            <div id="accordion"></div>
+        </div>    
     </div>
     <div id="footer">
     </div>
