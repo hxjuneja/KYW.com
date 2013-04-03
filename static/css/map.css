@@ -45,16 +45,17 @@
 
     #back {
     	   position: relative;
-    	   bottom: 555px;
-    	   left :1300px;
+    	   bottom: 645px;
+    	   left :1205px;
     }
 
  
 	#pp  {
             position: relative;
             bottom: 535px;
-            left: 1400px;       
-		    width: 30%;
+            left: 1450px;       
+		    width: 320px;
+            color :  #BFC4C4;
 		    font-weight: bolder;
 		    font-size: 50px;
 		    text-align : center;
@@ -75,6 +76,12 @@
 		background-image: url("../images/apple-iphone-4-wallpapers-844.jpg");
 		
 	     }
+     #awesome {
+        position : absolute;
+        bottom : 441px;
+        left : 1910px;
+        border:5px;
+     }
     
     #logo
          {
@@ -84,5 +91,4 @@
          	font-size: 50px;
             color: #BFC4C4;
             width: 50%;
-         }
-    
+         } 

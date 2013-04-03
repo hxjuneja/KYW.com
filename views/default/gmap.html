@@ -22,14 +22,21 @@
       </script>
 
   </head>
-   <script type="text/javascript"> //$('body').css({'overflow':'hidden'});
-                                     // $(document).bind('scroll',function () { 
-                                     // window.scrollTo(0,0); 
-//                                      });
+   <script type="text/javascript"> $('body').css({'overflow':'hidden'});
+                                      $(document).bind('scroll',function () { 
+                                      window.scrollTo(0,0); 
+                                   });
 </script>
 
   <body onload="initialize()">
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));</script>
     <div id="header">
         <div id="logo">
             Know Your World
@@ -48,13 +55,19 @@
         </div> 
 
         <p id="pp" ></p>
-        <input type="button" id="back" onclick="scrollRight()"/>
+        <input type="image" id="back" src="../static/images/arrow-89-64.png"  onclick="scrollRight()"/>
+       <!-- <p id="back-head"> towards map </p>-->
         <div id="accordian_container">
-            
-            <div id="accordion"></div>
+             <div id="accordion"></div>
         </div>    
+        <div id="awesome">
+             <div class="fb-like" data-href="http://localhost:8000/know_your_world/default/gmap" data-send="false" data-layout="button_count" data-width="650" data-show-faces="false" data-font="tahoma"></div><br>
+             <a href="https://twitter.com/share" class="twitter-share-button" data-via="hardik_juneja" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
     </div>
     <div id="footer">
+         <p></p>
     </div>
        
   </body>
