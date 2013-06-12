@@ -1,6 +1,5 @@
-<html>
-    
-  <head>
+
+<head>
     <style type="text/css">
         .head {
             font-size : 150%;
@@ -34,8 +33,8 @@
        center: myLatlng,
        mapTypeId: google.maps.MapTypeId.ROADMAP
       }
-     map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
+      map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+ 
      google.maps.event.addListener(map, 'click', function(event) {
         placeMarker(event.latLng);
         }); 
@@ -74,16 +73,19 @@
 
   }
     </script>
-  </head>
-  <body onload="initialize()">
+</head>
+<body onload="initialize()">
+ 
+    <div>
     <div id="map_canvas" style="width:50%; height:50%"></div>
+   </div> 
     <p id="pp"></p>
+      <input name="name" onkeyup="ajax('echo', ['name'], 'p')" />
       {{=form}}
-    <p id="p"></p>
+    <div id="p"></div>
     <h2>Submitted variables</h2>
 	{{=BEAUTIFY(request.vars)}}
       {{if row:}}  
         <p>heres ur data {{=XML(row.data)}}</p>
-        {{pass}}
+      {{pass}}
   </body>
-</html>

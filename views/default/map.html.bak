@@ -78,8 +78,9 @@
   <body onload="initialize()">
     <div id="map_canvas" style="width:50%; height:50%"></div>
     <p id="pp"></p>
+      <input name="name" onkeyup="ajax('echo', ['name'], 'p')" />
       {{=form}}
-    <p id="p"></p>
+    <div id="p"></div>
     <h2>Submitted variables</h2>
 	{{=BEAUTIFY(request.vars)}}
       {{if row:}}  
